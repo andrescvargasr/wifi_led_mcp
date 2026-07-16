@@ -1,0 +1,49 @@
+# Zephyr build directories
+build/
+build*/
+outdir/
+outdir-*
+sanity-out*
+twister-out*
+
+# Compiler and Linker artifacts
+*.o
+*.a
+*.d
+*.cmd
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.uf2
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Workspace & local cache files
+.cache/
+.west/
+
+# IDE configurations
+.vscode/
+.idea/
+.clangd/
+.project
+.settings
+.cproject
+CMakeSettings.json
+.history/
+
+# OS-specific and editor temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
