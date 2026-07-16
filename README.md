@@ -58,16 +58,6 @@ With this setup, you can control a physical RGB LED through a standard browser U
 * The `west` meta-tool initialized.
 
 ### Building & Flashing
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-* [Zephyr SDK](https://docs.zephyrproject.org/latest/develop/getting_started/index.html) installed and configured.
-* The `west` meta-tool initialized.
-
-### Building & Flashing
 1. Clone this repository inside your west workspace:
    ```bash
    git clone [https://github.com/andrescvargasr/wifi_led_mcp.git](https://github.com/andrescvargasr/wifi_led_mcp.git)
